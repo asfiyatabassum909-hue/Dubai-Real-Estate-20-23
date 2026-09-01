@@ -44,3 +44,6 @@ Put together a single-page dashboard so everything's visible at a glance — yea
 
 - 📥 [Dubai Real Estate Dashboard](https://1drv.ms/x/c/d4256c51d09a9310/IQBzXjJ_U1kuR48PjqR5GtM0AYevN_JYI9Cm77zj9fj_ECk?e=ddvMvK)
 
+## Conclusion
+
+Dubai's real estate market showed strong, consistent growth from 2020 through 2022, with activity concentrated in a handful of premium areas and heavily skewed toward Unit sales over Land, Villas, or Buildings. Working through this data end-to-end — from cleaning raw records to building a dashboard that actually holds up under filtering — reinforced how much of good analysis happens before the first chart ever gets made. That's the real takeaway from this project.
