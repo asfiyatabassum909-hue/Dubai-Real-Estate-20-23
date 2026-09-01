@@ -11,28 +11,28 @@ A quick look at Dubai's real estate transactions from 2020 to 2023, built in Exc
 - **Size:** ~1,047,965 transaction records, 2020–2023
 - **Fields:** Transaction ID, Property Type, Property Sub Type, Area Name, Nearest Metro/Mall, Procedure Area, Actual Worth, Meter Sale Price, and more
 
-## 🎯 Questions I Explored
+## 🎯 Business Questions
 
 ### 1. How did the Dubai real estate market actually move between 2020 and 2023?
-Transaction value grew steadily from 2020 into 2021, then jumped sharply in 2022 — both total value and deal count peaked that year. 2023 shows a steep drop, but that's incomplete data, not a slowdown — this dataset only runs through March 2023, so three months are being compared against three full years.
+Transaction value grew from 2020 into 2021 and increased sharply in 2022, when both transaction value and deal count reached their highest levels. 2023 shows a steep drop, but this should not be interpreted as a decline in market activity because the dataset only contains data through March 2023.
+
+💡 **Recommendation:** Track transaction activity on a monthly or quarterly basis alongside annual trends. This would make it easier to identify changes in market activity and avoid misleading comparisons when a year contains incomplete data.
 
 <img width="1029" height="494" alt="image" src="https://github.com/user-attachments/assets/28fea215-5a79-4d03-b86f-671f2ed0e529" />
 
-💡 **Recommendation:** The real weak point here is reporting cadence, not the market — waiting for a full calendar year to assess performance means 9+ months of blind spot. Move to quarterly tracking with annualized projections, so a dip like this gets caught and explained immediately instead of looking like a market crash on a year-end chart.
-
 ### 2. Which areas are actually driving the money in this market?
-Marsa Dubai and Palm Jumeirah lead by a wide margin. After the top 2, everything drops into a tighter, noticeably smaller band — Al Hebiah Fourth and Al Thanayah Fifth sit at the bottom of the top 10, at roughly a third of Marsa Dubai's value.
+Marsa Dubai and Palm Jumeirah lead the top 10 areas by transaction value. After the top two areas, transaction value falls into a noticeably smaller range, with Al Hebiah Fourth and Al Thanayah Fifth at the lower end of the top 10.
+
+💡 **Recommendation:** The concentration of transaction value in a small number of areas suggests that these locations warrant closer analysis. Comparing transaction volume, average transaction value, and property mix across areas could help identify what is driving the difference in performance.
 
 <img width="1025" height="492" alt="image" src="https://github.com/user-attachments/assets/678cc38d-57c1-4b1c-a0a4-6c18d534a195" />
 
-💡 **Recommendation:** The lower-tier areas in the top 10 aren't underperforming because of low demand potential — they're likely underexposed. Targeted marketing pushes, developer incentives, or improved connectivity (new metro links, mall access) in areas like Al Thanayah Fifth and Al Hebiah Fourth could close the gap with the mid-tier performers above them.
-
 ### 3. What's actually selling — Units, Land, Villas, or Buildings?
-Units dominate both value and count by a wide margin. Land and Villas trail far behind, and Buildings are the smallest category in both metrics.
+Units dominate both transaction value and transaction count by a wide margin. Land and Villas follow at considerably lower levels, while Buildings represent the smallest category in both measures.
+
+💡 Recommendation: Analyze transaction volume alongside average transaction value for each property type. This would help distinguish categories that generate high value through transaction volume from those driven by a smaller number of higher-value transactions.
 
 <img width="1026" height="494" alt="image" src="https://github.com/user-attachments/assets/c3a3f12b-face-4c6e-81b8-b3294c6262ff" />
-
-💡 **Recommendation:** Buildings and Land are the categories that need the push. Since these are higher-ticket, lower-frequency assets, the fix isn't volume marketing — it's liquidity: things like flexible financing options, phased/installment sale structures, or bundling incentives for developers could make these segments move faster instead of sitting stagnant compared to Units.
 
 ## 🖥️ The Dashboard
 
